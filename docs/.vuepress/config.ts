@@ -12,5 +12,5 @@ export default defineUserConfig({
      * 
     */
     pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
-    // base: "/product/",
+    base: "/vuepress2-study/",
 })
