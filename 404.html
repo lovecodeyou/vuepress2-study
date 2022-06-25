@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>LRC静态文档网站</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="modulepreload" href="/vuepress2-study/assets/app.6b910f7e.js"><link rel="modulepreload" href="/vuepress2-study/assets/404.html.0214c912.js"><link rel="modulepreload" href="/vuepress2-study/assets/404.html.265028f6.js"><link rel="prefetch" href="/vuepress2-study/assets/index.html.e5e8c7ab.js"><link rel="prefetch" href="/vuepress2-study/assets/index.html.2621968a.js"><link rel="prefetch" href="/vuepress2-study/assets/noTitle.html.73e1c44f.js"><link rel="prefetch" href="/vuepress2-study/assets/test.html.b0e282d3.js"><link rel="prefetch" href="/vuepress2-study/assets/test2.html.f69e9b9d.js"><link rel="prefetch" href="/vuepress2-study/assets/index.html.a65a5baa.js"><link rel="prefetch" href="/vuepress2-study/assets/index.html.b50ff0f1.js"><link rel="prefetch" href="/vuepress2-study/assets/noTitle.html.4db7b2d8.js"><link rel="prefetch" href="/vuepress2-study/assets/test.html.adc4083f.js"><link rel="prefetch" href="/vuepress2-study/assets/test2.html.4b35baf2.js"><link rel="prefetch" href="/vuepress2-study/assets/404.a6107641.js"><link rel="prefetch" href="/vuepress2-study/assets/Layout.5c022755.js">
+    <link rel="stylesheet" href="/vuepress2-study/assets/style.034e018c.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/vuepress2-study/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/vuepress2-study/assets/app.6b910f7e.js" defer></script>
+  </body>
+</html>
