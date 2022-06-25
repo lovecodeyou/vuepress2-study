@@ -3,7 +3,7 @@
 # Hello VuePress
 
 
-
+兄弟们使用Github Actions构建
 
 [当前页](./README.md)  
 [other目录下的首页](./other/README.md)  
